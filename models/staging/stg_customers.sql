@@ -11,8 +11,8 @@ with source as (
 renamed as (
 
     select
-        id as customer_id,
-        first_name,
+        id as customer_ids,
+        first_names,
         last_name,
         email
 
